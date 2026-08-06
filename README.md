@@ -1,8 +1,16 @@
 # 3CX Queue Dashboard
 
-A simple local dashboard that polls 3CX, shows queue login state, phone status, calls today and how long each agent has remained signed in or out.
+A simple dashboard that polls 3CX, shows queue login state, phone status, calls today and how long each agent has remained signed in or out.
 
-## Run locally
+## Live dashboard
+
+Lovable project: https://lovable.dev/projects/89c885f9-4f4d-4d89-a9ce-f7117dea27a5
+
+Published dashboard: https://threecx-queue-watcher.lovable.app
+
+The hosted dashboard currently uses mock data. Your 3CX server should be accessed by the local Node connector because browsers and hosted frontends commonly cannot reach a private PBX directly.
+
+## Run the local connector
 
 Requires Node.js 20 or newer.
 
